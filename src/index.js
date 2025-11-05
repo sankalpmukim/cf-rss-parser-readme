@@ -100,7 +100,7 @@ async function handleRSSCard(request, corsHeaders) {
 	const feedUrl = params.get('feed_url');
 	const count = parseInt(params.get('count') || '5');
 	const theme = params.get('theme') || 'default';
-	const title = params.get('title') || 'Latest Articlezz';
+	const title = params.get('title') || 'Latest Articles';
 	const width = parseInt(params.get('width') || '400');
 	const height = parseInt(params.get('height') || '200');
 
